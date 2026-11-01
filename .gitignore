@@ -1,0 +1,37 @@
+# --- MATLAB autosave and backup files ---
+*.asv
+*.m~
+*.autosave
+*.slx.r*
+*.mdl.r*
+
+# --- Simulink cache and code generation ---
+*.slxc
+slprj/
+sccprj/
+codegen/
+
+# --- Compiled MEX files ---
+*.mex*
+
+# --- Packaged apps, toolboxes, deployable archives ---
+*.mlappinstall
+*.mltbx
+*.ctf
+
+# --- Generated help search folders ---
+helpsearch*/
+
+# --- MATLAB Drive and buildtool ---
+.MATLABDriveTag
+.buildtool/
+
+# --- Operating system files ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Optional: uncomment if you don't want to version these ---
+# *.mat      # saved workspaces / simulation results (can be large)
+# *.fig      # MATLAB figures (regenerable from scripts)
+# results/   # a folder for generated plots and data
